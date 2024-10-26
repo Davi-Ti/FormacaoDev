@@ -1,4 +1,5 @@
 // import "./tipos/variaveis"
 // import "./tipos/array"
 // import "./tipos/enums"
-import "./tipos/enumsConst"
+// import "./tipos/enumsConst"
+import "./tipos/enums_tipo"
