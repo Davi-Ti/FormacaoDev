@@ -4,5 +4,7 @@
 // import "./tipos/enumsConst"
 // import "./tipos/enums_tipo"
 // import "./tipos/funcoes"
+// import "./tipos/funcoes_tipo"
 // import "./tipos/objetos"
-import "./tipos/produto"
+// import "./tipos/produto"
+import "./tipos/uniao"
