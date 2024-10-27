@@ -2,4 +2,7 @@
 // import "./tipos/array"
 // import "./tipos/enums"
 // import "./tipos/enumsConst"
-import "./tipos/enums_tipo"
+// import "./tipos/enums_tipo"
+// import "./tipos/funcoes"
+// import "./tipos/objetos"
+import "./tipos/produto"
