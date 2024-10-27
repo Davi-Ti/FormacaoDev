@@ -1,4 +1,4 @@
-import { somar } from "../src/calc"
+import { somar } from "../../src/tipos/calc"
 
 test("deve somar corretamente", () => {
 	const result: number = somar(12, 20)
