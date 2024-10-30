@@ -1,14 +1,10 @@
 class Curso {
-	private _id: number | undefined
+	readonly id: number | undefined
 	nome: string | undefined
 
 	constructor(id: number) {
-		this._id = id
+		this.id = id
 		if (id < 1) throw new Error("Id Inválido")
-	}
-
-	get id() {
-		return this._id
 	}
 }
 
