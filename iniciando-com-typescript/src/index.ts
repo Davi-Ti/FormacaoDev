@@ -13,4 +13,5 @@ console.clear()
 // import "./tipos/never"
 // import "./tipos/null"
 // import "./tipos/desafioFinal"
-import "./oo/classe_1"
+// import "./oo/classe_1"
+import "./oo/classe_2"
