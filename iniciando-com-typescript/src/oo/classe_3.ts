@@ -1,3 +1,5 @@
+import Validador from "./Validador"
+
 class Produto {
 	constructor(
 		readonly id: number,
@@ -5,10 +7,11 @@ class Produto {
 		readonly preco: number,
 		readonly desc: number = 0
 	) {
-		if (id < 0) throw new Error("Id Inválido")
-		if (nome.length < 3) throw new Error("Nome pequeno")
-		if (nome.length > 180) throw new Error("Nome muito grande")
-		if (preco <= 0) throw new Error("Preco Invalido")
+		Validador.maiorQueZero(id, "Id Inválido")
+		Validador.tamanhoEntre(nome, 2, 180, "Nome inválido")
+		Validador.maiorQueZero(preco, "Preco Invalido")
+		Validador.entre(desc, 0, 0.8, "desconto inválido")
+
 		if (desc < 0 || desc > 0.8) throw new Error("Desconto invalido")
 	}
 
