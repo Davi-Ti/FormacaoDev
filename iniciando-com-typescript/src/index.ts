@@ -1,4 +1,4 @@
-console.clear();
+console.clear()
 
 // import "./tipos/variaveis"
 // import "./tipos/array"
@@ -20,4 +20,5 @@ console.clear();
 // import "./interfaces/usuario"
 // import "./interfaces/flexivel"
 // import "./interfaces/funcao"
-import "./pilares_oo/encapsulamento";
+// import "./pilares_oo/encapsulamento";
+import "./pilares_oo/heranca_1"
