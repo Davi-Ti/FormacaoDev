@@ -1,4 +1,4 @@
-console.clear()
+console.clear();
 
 // import "./tipos/variaveis"
 // import "./tipos/array"
@@ -19,4 +19,5 @@ console.clear()
 // import "./oo/desafio_estatico"
 // import "./interfaces/usuario"
 // import "./interfaces/flexivel"
-import "./interfaces/funcao"
+// import "./interfaces/funcao"
+import "./pilares_oo/encapsulamento";
