@@ -26,4 +26,10 @@ console.clear()
 // import "./pilares_oo/heranca_3"
 // import "./pilares_oo/heranca_4"
 // import "./pilares_oo/heranca_5"
-import "./pilares_oo/polimorfismo"
+// import "./pilares_oo/polimorfismo"
+
+function fineshedCurse() {
+	return "Typescript Developer Curse Fineshed"
+}
+
+console.log(fineshedCurse())
